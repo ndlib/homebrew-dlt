@@ -1,9 +1,9 @@
 class GoJira < Formula
-  desc ""
+  desc "Command line client for JIRA."
   homepage "https://github.com/Netflix-Skunkworks/go-jira"
-  url "https://github.com/Netflix-Skunkworks/go-jira/archive/v0.1.3.tar.gz"
-  version "0.1.3"
-  sha256 "8f282a9d6107621fc9fa8d4534af2a4798be4f1608f936e30943da3acbd2321c"
+  url "https://github.com/Netflix-Skunkworks/go-jira/archive/v0.1.6.tar.gz"
+  version "0.1.6"
+  sha256 "ee0ba0dab048d8a087c6c4278d13ed92fb96c95ea4157bfa77e7b4a7bf176fcf"
 
   depends_on "go" => :build
 
