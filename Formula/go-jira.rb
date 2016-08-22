@@ -3,7 +3,7 @@ class GoJira < Formula
   homepage "https://github.com/Netflix-Skunkworks/go-jira"
   url "https://github.com/Netflix-Skunkworks/go-jira/archive/v0.1.6.tar.gz"
   version "0.1.6"
-  sha256 "ee0ba0dab048d8a087c6c4278d13ed92fb96c95ea4157bfa77e7b4a7bf176fcf"
+  sha256 "df935a14142bb08b1fec206964cdbec883955f48213a9865237c6bbe85b26338"
 
   depends_on "go" => :build
 
