@@ -1,13 +1,12 @@
 class GoJira < Formula
   desc "Command line client for JIRA."
   homepage "https://github.com/Netflix-Skunkworks/go-jira"
-  url "https://github.com/Netflix-Skunkworks/go-jira/archive/v0.1.6.tar.gz"
-  version "0.1.6"
-  sha256 "df935a14142bb08b1fec206964cdbec883955f48213a9865237c6bbe85b26338"
-  revision 2
-  # send the password prompt to stderr. do this until upstream either sends the prompt to stderr
-  # or until it supports putting the password in a file.
-  # this helps us integrate the output of the tool with other tools.
+  url "https://github.com/Netflix-Skunkworks/go-jira/archive/v0.1.7.tar.gz"
+  version "0.1.7"
+  sha256 "82edcfd74b6ef2a187d2ebc3c1f95097db188313212480e40abaf5f4486efbd4"
+  # send the password prompt to stderr. do this until upstream either sends the
+  # prompt to stderr or until it supports putting the password in a file. this
+  # helps us integrate the output of the tool with other tools.
   patch :DATA
 
   depends_on "go" => :build
@@ -35,13 +34,3 @@ index 684949c..c1f3c5e 100644
  		pw, err := gopass.GetPasswdMasked()
  		if err != nil {
  			return err
-@@ -666,6 +666,9 @@ func (c *Cli) CmdTransition(issue string, trans string) error {
- 			transName = name
- 			transID = id
- 			transMeta = transition.(map[string]interface{})
-+			if strings.ToLower(name) == strings.ToLower(trans) {
-+				break
-+			}
- 		}
- 	}
- 	if transID == "" {
