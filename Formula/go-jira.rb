@@ -2,7 +2,6 @@ class GoJira < Formula
   desc "Command line client for JIRA."
   homepage "https://github.com/Netflix-Skunkworks/go-jira"
   url "https://github.com/Netflix-Skunkworks/go-jira/archive/v0.1.14.tar.gz"
-  version "0.1.14"
   sha256 "561f388a0dcb6da531469fa913f9e5377f30f406b2afab78f6a0dd66b5352384"
   # send the password prompt to stderr. do this until upstream either sends the
   # prompt to stderr or until it supports putting the password in a file. this
