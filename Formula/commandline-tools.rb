@@ -2,7 +2,7 @@ class CommandlineTools < Formula
   desc "Command line tools used by Notre Dame Libraries"
   homepage "https://github.com/ndlib/commandline-tools"
   url "https://github.com/ndlib/commandline-tools/archive/v2018.1.tar.gz"
-  sha256 "2bb273f0b21f787928d21f0c6c41d98d0fe20324"
+  sha256 "5cd59c6fe69be2dc1b18c5d586b4e7b3f9f14cc205f8698ab66dfffaed4a6ddb"
   depends_on "git"
   depends_on "screen"
   depends_on "the_silver_searcher"
