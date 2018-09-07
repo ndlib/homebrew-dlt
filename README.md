@@ -3,7 +3,7 @@ Homebrew Formulae for DLT development utilities
 
 ## Updating Brew Formula
 
-Download the release `tar.gz` from the given repository [see v2017.6 of commandline-tools for a valid tar.gz](https://github.com/ndlib/commandline-tools/releases/tag/v2017.6)
+Download the release `tar.gz` from the given repository [see v2018.1 of commandline-tools for a valid tar.gz](https://github.com/ndlib/commandline-tools/releases/tag/v2018.1)
 Then run:
 
 ```console
